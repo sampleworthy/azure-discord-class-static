@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #ffffff;
         }
         header {
             background-color: #333;
@@ -19,6 +19,12 @@
         }
         main {
             margin: 15px;
+            text-align: center; /* Center the content */
+        }
+        .image-center {
+            width: 400px;
+            height: 400px;
+            margin: 0 auto; /* Center the image */
         }
         footer {
             background-color: #333;
@@ -29,6 +35,14 @@
             bottom: 0;
             width: 100%;
         }
+        .discord-link {
+            color: #7289da;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .discord-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -37,6 +51,8 @@
     </header>
     <main>
         <p>Welcome to the Azure class. Here you will learn all about Microsoft's cloud platform.</p>
+        <img src="/Users/jaymlaws/Desktop/AWS-API/azuresite/discord.png" alt="Azure Class Image" class="image-center">
+        <p><a href="https://discord.gg/CE26C4mx" class="discord-link">Join the discord group and speak to a real Azure SME</a></p>
     </main>
     <footer>
         <p>&copy; 2024 Azure Class</p>
