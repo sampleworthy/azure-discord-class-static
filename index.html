@@ -11,15 +11,11 @@
             padding: 0;
             background-color: #000000;
         }
-        header { 
-            background-color: #000000;
-            color: #ffffff;
-            padding: 10px 0;
-            text-align: center;
-        }
         main {
             display: flex;
             flex-direction: column;
+            overflow-y: auto; /* Allows vertical scrolling if the content overflows */
+            height: 100vh; /* Sets the height to 100% of the viewport height */
             align-items: center;
             justify-content: center;
             margin: 15px;
@@ -54,21 +50,9 @@
         .discord-link:hover, .download-link:hover {
             background-color: #7289da;
         }
-        footer {
-            background-color: #000000;
-            color: #ffffff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Azure Introduction 5-Week Discord Course</h1>
-    </header>
     <main>
         <p style="color: #ffffff; padding: 20px; border-radius: 5px; line-height: 1.6; font-size: 18px; max-width: 500px; margin: auto;">
             <strong>Welcome to the Azure Class on Discord!</strong><br>
@@ -82,8 +66,5 @@
         <a href="https://github.com/AzureMentor/Azure-AZ-900-Study-Guide" class="discord-link">Azure AZ-900 Study Guide</a>
         <a href="https://azureclouddev98bf.blob.core.windows.net/images/Azure_Introduction_Course_Syllabus_5_Weeks_-_In-Person%20(1).pdf" class="download-link" download>Download the Azure Introduction Course Syllabus</a>
     </main>
-    <footer>
-        <p>&copy; 2024 Azure Discord Class</p>
-    </footer>
 </body>
 </html>
